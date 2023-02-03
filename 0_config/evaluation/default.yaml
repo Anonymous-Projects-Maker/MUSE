@@ -1,0 +1,4 @@
+name: default
+precision_k: 5
+
+ckpt_file: "checkpoint_file_path"

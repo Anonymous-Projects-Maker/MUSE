@@ -1,0 +1,7 @@
+name: spmotif_0.7
+splits:
+  train: 0.8
+  valid: 0.1
+  test: 0.1
+batch_size: 256
+mutag_x: false

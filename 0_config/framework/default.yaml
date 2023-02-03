@@ -1,0 +1,34 @@
+name: default
+
+gpl_version: 'gpl_v3'
+pred_loss_coeff: 1.0
+with_assign_matrix: true # use mask or not
+with_ib_constraint: true
+fix_ib: true
+ib_coeff_mask: 0.5 # for edge prob
+ib_coeff_vector: 0.05 # for vector
+fix_r: false
+decay_interval: 10
+init_r: 0.9
+final_r: 0.3
+decay_r: 0.1
+ib_constraint_type: 'both'
+assign_edge: true
+mask_smooth: false
+
+with_ct_loss: false
+ct_loss_coeff: 0.05 # for supervised ct companied with cr
+queue_max_len: 40
+fix_ct: true
+raw_data_in_queue: false
+use_momentum_module: false
+momentum_coeff: 0.999
+
+with_cluster_loss: false
+with_rate_loss: false
+rate_loss_coeff: 0.02
+
+with_reconstruct: true
+recon_loss_coeff: 0.1
+pos_weight: 5
+

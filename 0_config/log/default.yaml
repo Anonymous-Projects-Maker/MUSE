@@ -1,0 +1,3 @@
+name: default
+log_console: true
+log_file: true

@@ -1,0 +1,20 @@
+name: PNA
+
+aggregators: ['sum', 'mean', 'max']
+scalers: 1
+
+hidden_size: 64
+n_layers: 3
+dropout_p: 0.3
+
+edge_assigner_channels: [64, 128, 2]
+node_assigner_channels: [64, 128, 2]
+clf_channels: [128, 128,]
+
+mean_encoder_channels: [64, 128, 64]
+std_encoder_channels: [64, 128, 64]
+
+graph_pooling: false
+
+
+

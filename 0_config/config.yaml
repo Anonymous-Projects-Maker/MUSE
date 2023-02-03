@@ -1,0 +1,16 @@
+defaults:
+  - _self_
+  - model: GIN
+  - dataset: spmotif_0.5
+  - training: default
+  - evaluation: default
+  - framework: default
+  - log: default
+random_seed: 0
+device: 'cuda:0'
+train: true
+debug: true
+task_id: -1
+exp_group_name: ''
+exp_note: ""
+wandb_note: ""
